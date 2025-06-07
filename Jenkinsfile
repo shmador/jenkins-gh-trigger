@@ -4,9 +4,9 @@ pipeline {
         githubPush()
     }
     stages {
-        sh ```
+        sh '''
             echo "hello"
-        ```
+        '''
     }
 
 }
